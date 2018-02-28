@@ -1,0 +1,56 @@
+body, html{
+	height: 100%;
+}
+.bg{
+	background-image: url("images/background.png");
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#table-container{
+		width:50%;
+		float:center; 
+		border: 5px solid;
+		margin:2% 25% 2% 25%;
+		}
+		
+		#table{
+		width: 100%;
+		background-color: #000;
+		}
+		
+		#table thead{
+		border: 2px solid #000;
+		background-color:#3090C7;
+		}
+		
+		#table td{
+		text-align: center;
+		}
+		
+		#table a{
+		text-decoration:none;
+		color: #0000e6;
+		font-weight: bold;
+		}
+		
+		#table a:hover{
+		color: #ffff00;
+		
+		}
+		
+		#img-container{
+		width: 70%;
+		border: solid 5px;
+		margin:2% 15% 2% 15%;
+		position: relative;
+		}
+		
+		#img-container img{
+		width: 100%;
+		}
+		#img-container a{
+		display: block;      
+		position: absolute;
+		}

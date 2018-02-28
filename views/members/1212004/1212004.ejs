@@ -1,0 +1,81 @@
+﻿ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Thông tin thành viên</title>
+	<style>
+		body{
+		position: relative;
+		}
+		
+		#avatar{
+		width:30%;
+		border: 5px solid;
+		position: absolute;
+		top: 2%;
+		left: 9%;
+		border-radius: 10px;
+		}
+		
+		#avatar img{
+		width:100%;
+		}
+		
+		#information{
+		position: relative;
+		width: 48%;
+		border: solid 5px;
+		background-color: #FFF;
+		border-radius: 10px;
+		position: absolute;
+		top: 2%;
+		left: 40%;
+		padding: 2%;
+		}
+		
+		#information p{
+		display: block;
+		margin: 2% auto 0% 5%;
+		background: DFF2E0;
+		font-size: large;
+		}
+		
+		button{
+		width: 22%%;
+		height: 12%;
+		border: none;
+		border-radius: 3px;
+		color: #ffff00;
+		background: #4A37FC;
+		font-size: 200%;
+		font-weight: bold;
+		margin: 3% auto 3% 7%;
+		}
+
+		button:hover{
+			background:#ffff00;
+			color: #4A37FC;
+		}
+	</style>
+</head>
+
+<body width="150px" style= "background-image:url(../../images/background.jpg); font-family: Tahoma, Arial, Consolas; font-size:medium">
+
+	<div id= "avatar" >
+		<img src="./images/avt.jpg" alt="Avatar"></img>
+	</div>	
+	
+	<div id="information">
+		<p><b>Họ tên: </b> Ngô Văn Việt Anh</br></p>
+		<p><b>MSSV: </b>1212004</br></p>
+		<p><b>Ngày sinh: </b>13.05.1994</br></p>
+		<p><b>Email: </b>vietanhngo@live.com</br></p>
+		<p><b>SĐT: </b>0978.939.545</br></p>
+		
+		<button onClick="location.href='../../default.html'">Quay lại</button>
+	</div>
+	
+
+</body>
+
+</html> 
